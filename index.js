@@ -45,3 +45,7 @@ app.get('/', async (req, res) => {
 app.get('/home', async (req, res) => {
     res.render('home');
 })
+
+app.get('/report', async (req, res) => {
+    res.render('report');
+})

@@ -1,0 +1,47 @@
+/* Additional CSS for layout */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Flexbox layout for side-by-side tables */
+.summary-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for individual summary containers */
+.summary-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    flex: 1;
+   margin-left: 20px;
+    max-width: calc(50% - 10px); /* Adjust the width as needed */
+}
+
+/* Additional styling for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Additional styling for table headers and cells */
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#judul{
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
